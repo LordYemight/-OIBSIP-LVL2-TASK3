@@ -39,6 +39,14 @@ This GitHub repository is a comprehensive project that combines a tribute page t
 6. **Profile**: Users can access their profiles, where user data is loaded securely via JWT.
 7. **Log Out**: Logging out is secure and clears the JWT token, protecting users from unauthorized access.
 
+**Getting Started:**
+1. Clone or download the repository.
+2. Navigate to the project's root folder.
+3. Run npm install to install dependencies for both the frontend and backend.
+4. Create a `.env` file at the root of the *Backend folder* with `port at 8000`, `MONGODB_URI`, and `SECRET_KEY` inside the dotenv.
+5. Start the server by running `npm run dev`.
+6. Start the React app by running `npm run dev` in the frontend folder.
+
 **Contributions:**
 Contributions and improvements are encouraged. Fork the repository, implement changes, and submit a pull request to enhance the project further.
 
