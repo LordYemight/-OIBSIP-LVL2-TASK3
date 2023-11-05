@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(122, 122, 122);
+}
+
+.reg{
+    display: flex;
+    gap: 20px;
+}
+
+.head{
+    color: #040422;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.head:hover{
+    color: #090960;
+}
+
+.loggedInHeader{
+    display: flex;
+    gap: 5px;
+}
+
+.userName{
+    color: #040422;
+    text-decoration: none;
+}
+
+.logoutButton{
+    margin-top: -6px;
+    border-radius: 20px;
+    background-color: white;
+    color: #040422;
+    cursor: pointer;
+}
+/* #000000 */ black
+/* #710280  */ purple
+/* #095F80 */ Lapis Lazuli
+
+/* Rich Black + Zaffre + Electric Indigo  */
+/* Hex Codes: #0D1023, #041FB9, #6E1CED  */
+/* 
+Night + Sgbus Green + Cream
+Hex Codes: #081107, #2CDD0D, #F1FAC0 */
+
+Maroon + Black + Timberwolf
+/* Hex Codes: #800000, #000000, #DDD6D5 */
