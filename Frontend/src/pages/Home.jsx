@@ -35,7 +35,7 @@ const Home = () => {
 
           Originally envisioned as a remorseless criminal mastermind with a clown-like appearance, the character quickly evolved. The Joker's origin story was initially shrouded in mystery, but later versions explored his transformation from a struggling stand-up comedian into the Clown Prince of Crime. This tragic tale added depth to his character and hinted at the psychological trauma that turned him into a psychopath...
         </div>
-        <button onClick={naviMore}>Read More</button>
+        <button className='btn' onClick={naviMore}>Read More</button>
       </div>
     </div>
   )

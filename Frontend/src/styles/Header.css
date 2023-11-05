@@ -25,6 +25,8 @@
 .loggedInHeader{
     display: flex;
     gap: 5px;
+  
+
 }
 
 .userName{
@@ -35,9 +37,10 @@
 .logoutButton{
     margin-top: -6px;
     border-radius: 20px;
-    background-color: white;
+    background-color: #a22f2f;
     color: #040422;
     cursor: pointer;
+    border: none;
 }
 /* #000000 */ black
 /* #710280  */ purple

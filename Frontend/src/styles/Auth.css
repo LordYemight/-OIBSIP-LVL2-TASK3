@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+
 .auth {
     display: flex;
     justify-content: center;
@@ -25,7 +27,7 @@
 }
 
 input {
-
+    font-family: 'Edu TAS Beginner', cursive;
     border: none;
     border-bottom: 1px solid rgb(0, 0, 0);
     font-size: 14px;
