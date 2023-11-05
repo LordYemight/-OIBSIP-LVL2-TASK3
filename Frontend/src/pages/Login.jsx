@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import '../styles/Auth.css'
 import axios from 'axios'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link, useNavigate } from 'react-router-dom';
+import { UserContext } from '../context/userContext';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -13,7 +14,7 @@ const Login = () => {
     username: '',
     password: ''
   })
-
+  const { setUser } = useContext(UserContext);
   
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -28,6 +29,7 @@ const Login = () => {
         toast.error(data.error)
       } else {
         setData({});
+        setUser(data);
         toast.success('Login successful');
         navigate('/more');
       }
